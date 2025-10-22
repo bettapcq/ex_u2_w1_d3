@@ -14,20 +14,9 @@ body {
   border-radius: 25px;
 }
 
-/* .honey-article {
-  display: flex;
-  justify-content: space-around;
-  align-items: start;
-} */
-
 .honey-article img {
-  width: 100%;
-}
-
-.article-text h2,
-.article-text p {
-  margin: 0;
-  margin-bottom: 0.3em;
+  width: 300px;
+  height: auto;
 }
 
 .article-text {
@@ -35,4 +24,16 @@ body {
   flex-direction: column;
   align-items: start;
   padding: 0 1em;
+}
+
+@media screen and (min-width: 576px) {
+  .honey-article {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+  }
+
+  .article-text h2 {
+    margin: 0;
+  }
 }
