@@ -1,22 +1,27 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
+  color: #6c575c;
 }
 
+/* mobile */
 .honey-article {
   display: flex;
-  justify-content: space-around;
-  align-items: start;
+  flex-direction: column;
   background-color: #fbf7e3;
   padding: 1.3em;
   border-radius: 25px;
 }
 
+/* .honey-article {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+} */
+
 .honey-article img {
-  height: 40%;
-  width: 40%;
+  width: 100%;
 }
 
 .article-text h2,
