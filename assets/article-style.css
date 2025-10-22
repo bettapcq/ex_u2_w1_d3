@@ -1,0 +1,33 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.honey-article {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  background-color: #fbf7e3;
+  padding: 1.3em;
+  border-radius: 25px;
+}
+
+.honey-article img {
+  height: 40%;
+  width: 40%;
+}
+
+.article-text h2,
+.article-text p {
+  margin: 0;
+  margin-bottom: 0.3em;
+}
+
+.article-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0 1em;
+}
